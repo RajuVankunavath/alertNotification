@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.icon {
+  height: 70px;
+  min-width: 30px;
+  margin-right: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .icon {
+    margin-right: 40px;
+  }
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Hex: #64748b
+Hex: #2dca73
+Hex: #ff0b37
+Hex: #ffb800
+Hex: #0f81e0
+Hex: #e5e5e5
+Hex: #0f172a
+Hex: #475569 */
+
+.success {
+  color: #2dca73;
+}
+.info {
+  color: #0f81e0;
+}
+.warning {
+  color: #ffb800;
+}
+.error {
+  color: #ff0b37;
+}
